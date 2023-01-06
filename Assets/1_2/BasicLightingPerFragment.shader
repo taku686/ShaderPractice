@@ -86,12 +86,12 @@ Shader "Unlit/BasicLightingPerFragment"
                 fixed4 light = amb + diff;
 
 
-                #if SPEC_ON
+                #if _SPEC_ON
                 float3 refl = normalize(reflect(-lightDir, worldNormal));
                 float RdotV = max(0, dot(refl, viewDir));
                 fixed4 spec = pow(RdotV, _Shininess) * _SpecColor * _LightColor0 *NdotL;
 
-                ligt += spec;
+                light += spec;
                 #endif
 
                 col.rgb *= light.rgb;

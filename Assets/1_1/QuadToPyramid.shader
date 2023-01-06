@@ -78,13 +78,13 @@ Shader "Unlit/QuadToPyramid"
                 {
                     o.pos = UnityObjectToClipPos(IN[i].vertex);
                     o.uv = IN[i].uv;
-                    o.col = fixed4(1, 1, 1, 1.);
+                    o.col = fixed4(0, 0, 0, 1.);
                     triStream.Append(o);
 
                     int inext = (i + 1) % 3;
                     o.pos = UnityObjectToClipPos(IN[inext].vertex);
                     o.uv = IN[inext].uv;
-                    o.col = fixed4(1, 1, 1, 1.);
+                    o.col = fixed4(0, 0, 0, 1.);
                     triStream.Append(o);
 
                     o.pos = UnityObjectToClipPos(float4(centerPos, 1));
@@ -97,17 +97,17 @@ Shader "Unlit/QuadToPyramid"
 
                 o.pos = UnityObjectToClipPos(IN[0].vertex);
                 o.uv = IN[0].uv;
-                o.col = fixed4(1, 1, 1, 1.);
+                o.col = fixed4(0, 0, 0, 1.);
                 triStream.Append(o);
 
                 o.pos = UnityObjectToClipPos(IN[1].vertex);
                 o.uv = IN[1].uv;
-                o.col = fixed4(1, 1, 1, 1.);
+                o.col = fixed4(0, 0, 0, 1.);
                 triStream.Append(o);
 
                 o.pos = UnityObjectToClipPos(IN[2].vertex);
                 o.uv = IN[2].uv;
-                o.col = fixed4(1, 1, 1, 1.);
+                o.col = fixed4(0, 0, 0, 1.);
                 triStream.Append(o);
 
                 triStream.RestartStrip();

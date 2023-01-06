@@ -1,4 +1,4 @@
-Shader "Unlit/Wireframe"
+Shader "Unlit/WireframeWithoutDiagonal"
 {
     Properties
     {

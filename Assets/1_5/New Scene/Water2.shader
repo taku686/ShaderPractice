@@ -8,6 +8,7 @@ Shader "Unlit/Water2"
         _DispTex("Disp Texture", 2D) = "gray" {}
         _ScrollSpeedX("Speed x",float) = 0
         _ScrollSpeedY("Speed y",float) = 0
+        _FresnelVal("Fresnel Value",range(0,1)) = 0.3
     }
     SubShader
     {
@@ -35,8 +36,9 @@ Shader "Unlit/Water2"
             float4 _DispTex_ST;
             float _ScrollSpeedX;
             float _ScrollSpeedY;
+            float _FresnelVal;
             UNITY_DECLARE_TEXCUBE(_RefTex);
-            #define F0 0.9
+            #define F0 0.5
 
             struct v2f
             {
@@ -77,7 +79,7 @@ Shader "Unlit/Water2"
                 fixed4 col;
                 col = UNITY_SAMPLE_TEXCUBE(_RefTex, refDir);
                 half vdotn = dot(viewDir, normal);
-                half fresnel = F0 + (1 - F0) * pow(1 - vdotn, 5);
+                half fresnel = _FresnelVal + (1 - _FresnelVal) * pow(1 - vdotn, 5);
                 col.a = fresnel;
                 return col;
             }
