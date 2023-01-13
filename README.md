@@ -144,3 +144,7 @@
 **--レイマーチング＋レイトレーシング--**
 
 ![RayMarching+RayTracing](https://user-images.githubusercontent.com/74074598/212241195-bcf66515-b75a-4a7d-8bfe-1794a042e7c1.png)
+
+**--レイマーチングを利用してスライム状のものを作成--**
+
+![Slime](https://user-images.githubusercontent.com/74074598/212241867-f17dc28c-e94c-4138-a075-402715527109.gif)
