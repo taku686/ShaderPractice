@@ -23,6 +23,10 @@
 
 ![Aberration](https://user-images.githubusercontent.com/74074598/210950697-0884b528-62d5-4a38-89f6-94ffad954fc5.gif)
 
+**--rgbのuv座標をランダムに動的にずらしている--**
+
+![Distortion](https://user-images.githubusercontent.com/74074598/212239796-644b65fe-e762-47d3-aaf1-0ea9f28cf7be.gif)
+
 **--ジオメトリシェーダー--**
 
 **ジオメトリシェーダーを利用してプリミティブの変形**
@@ -55,7 +59,7 @@
 
 ![Toon](https://user-images.githubusercontent.com/74074598/210950781-0095afa9-e6d8-4664-912a-d120a47e72c7.gif)
 
-**回転**
+**--回転--**
 
 ![UVRotation](https://user-images.githubusercontent.com/74074598/210950784-5eb78df9-fadf-46f7-9252-8e5eab67b7b4.gif)
 
@@ -112,4 +116,22 @@
 
 ![Ambient+Diffuse+Specukar+Emission](https://user-images.githubusercontent.com/74074598/210951317-92f15e11-869d-4c1e-9d38-918ead87663e.png)
 
+**--花びら--**
+![Flower](https://user-images.githubusercontent.com/74074598/212239736-9a28ee06-ca72-4ae4-904b-e9d4a949596c.png)
 
+
+**--uv座標移動--**
+
+**--ハートの形の関数を用いた--**
+
+![Heart](https://user-images.githubusercontent.com/74074598/212239798-0ce94cbd-a047-4c47-b531-ba6865defe3d.gif)
+
+**--uv座標の繰り返し処理を用いた--**
+
+![Repeat](https://user-images.githubusercontent.com/74074598/212239803-8557efaf-be75-4db9-a591-30680f9d7413.gif)
+
+**--ランダム--**
+
+**--セルラーノイズ--**
+
+![CellularNoise](https://user-images.githubusercontent.com/74074598/212239810-1e01b59c-c080-4b19-bba4-e12c3068e877.gif)
