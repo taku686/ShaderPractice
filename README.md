@@ -83,8 +83,13 @@
 
 **--ポストエフェクト---**
 
+**モノトーン**
 
 ![MonoTone](https://user-images.githubusercontent.com/74074598/210951303-9727b58c-a705-4a5c-8e54-a563daecdb10.png)
+
+**デジタル風モザイク**
+
+![DigitalGlitch](https://user-images.githubusercontent.com/74074598/215034571-28d615f3-0a98-412b-947b-4f2fe56c9856.gif)
 
 **--アウトライン---**
 
@@ -137,6 +142,32 @@
 
 ![CellularNoise](https://user-images.githubusercontent.com/74074598/212239810-1e01b59c-c080-4b19-bba4-e12c3068e877.gif)
 
+**--PsudeRandom--**
+
+<img width="162" alt="PsudeRandom" src="https://user-images.githubusercontent.com/74074598/215033944-75cc2c8f-f725-4436-b5f7-f0fb598fa411.png">
+
+**--TruchetPattern--**
+
+**--アラベスク--**
+
+<img width="163" alt="TruchetPattern_Arabesque" src="https://user-images.githubusercontent.com/74074598/215033953-39e4afde-920e-41a7-b991-f9465515a09f.png">
+
+**--バクテリア--**
+
+<img width="161" alt="TruchetPattern_Bacteria" src="https://user-images.githubusercontent.com/74074598/215033954-a8f16435-8bf4-4cd3-8708-c913ce247929.png">
+
+**--エンクロージャー--**
+
+<img width="159" alt="TruchetPattern_Enclosure" src="https://user-images.githubusercontent.com/74074598/215033957-156357f0-ec38-44e2-ba8d-dad9946fff63.png">
+
+**--メッシュ--**
+
+<img width="160" alt="TruchetPattern_Mesh" src="https://user-images.githubusercontent.com/74074598/215033960-54662107-a931-438f-a96b-cb5402a790eb.png">
+
+**--スネーク--**
+
+<img width="162" alt="TruchetPattern_Snake" src="https://user-images.githubusercontent.com/74074598/215033962-31886eea-ac1a-4d3a-a5a6-d56949c8ffd6.png">
+
 **--レイマーチング--**
 
 ![RayMarching1](https://user-images.githubusercontent.com/74074598/212241192-60f89090-6980-4b33-882b-bdc84777ff8c.png)
@@ -148,3 +179,19 @@
 **--レイマーチングを利用してスライム状のものを作成--**
 
 ![Slime](https://user-images.githubusercontent.com/74074598/212241867-f17dc28c-e94c-4138-a075-402715527109.gif)
+
+**--UI--**
+
+**アウトライン**
+
+![UIEdge](https://user-images.githubusercontent.com/74074598/215034565-463f8dd8-188e-43c4-a3cd-65c5663fd163.gif)
+
+![UIOutline](https://user-images.githubusercontent.com/74074598/215034568-ca67138f-809d-4980-9c6a-11cb38b29dd2.gif)
+
+**揺らめき**
+
+![Wobble](https://user-images.githubusercontent.com/74074598/215034569-8db86a6f-1abb-4768-8700-ac6fdf529c43.gif)
+
+**ディゾルブ**
+
+![UIDisolve](https://user-images.githubusercontent.com/74074598/215034580-66374e24-51c0-4393-a0d9-519dcce688e0.gif)
